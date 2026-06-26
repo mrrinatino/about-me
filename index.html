@@ -2,18 +2,20 @@
 <html lang="ru">
 
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ринат Юсупов — Product Builder</title>
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
 </head>
 
 <body>
     <main class="wrapper">
         <section class="hero animate">
-            <img class="avatar" src="avatar.jpg" alt="Your Photo">
+            <img class="avatar" src="avatar.jpg" alt="Ринат Юсупов">
             <h1>Ринат Юсупов</h1>
             <p class="tagline">Product-oriented mind in a test automation body</p>
         </section>
@@ -59,73 +61,130 @@
                 <div class="marquee-content">
                     <div class="marquee-item">
                         <div class="marquee-row">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg"
-                                alt="Playwright" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                                alt="JavaScript" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-                                alt="Docker" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                                alt="Git" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg"
-                                alt="Jira" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
-                                alt="VSCode" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg"
-                                alt="Notion" />
+                            <span class="tool-icon" title="Playwright">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" alt="Playwright" />
+                            </span>
+                            <span class="tool-icon" title="JavaScript">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                            </span>
+                            <span class="tool-icon" title="Docker">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+                            </span>
+                            <span class="tool-icon" title="Git">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+                            </span>
+                            <span class="tool-icon" title="Jira">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" alt="Jira" />
+                            </span>
+                            <span class="tool-icon" title="VSCode">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VSCode" />
+                            </span>
+                            <span class="tool-icon" title="Notion">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" alt="Notion" />
+                            </span>
+                            <span class="tool-icon tool-icon--line" title="Codex">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg" alt="Codex" />
+                            </span>
                         </div>
                         <div class="marquee-row">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg"
-                                alt="GitLab" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg"
-                                alt="Cypressio" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
-                                alt="Postman" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg"
-                                alt="DBViewer" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg"
-                                alt="Swagger" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg"
-                                alt="Android" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg"
-                                alt="Android Studio" />
+                            <span class="tool-icon" title="GitLab">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" alt="GitLab" />
+                            </span>
+                            <span class="tool-icon" title="Cypress">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" alt="Cypress" />
+                            </span>
+                            <span class="tool-icon" title="Postman">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman" />
+                            </span>
+                            <span class="tool-icon" title="DBeaver">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg" alt="DBeaver" />
+                            </span>
+                            <span class="tool-icon" title="Swagger">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" alt="Swagger" />
+                            </span>
+                            <span class="tool-icon" title="Android">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" alt="Android" />
+                            </span>
+                            <span class="tool-icon" title="Android Studio">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" />
+                            </span>
+                            <span class="tool-icon tool-icon--line" title="Claude Code">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/claude.svg" alt="Claude Code" />
+                            </span>
                         </div>
                     </div>
                     <div class="marquee-item">
                         <div class="marquee-row">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg"
-                                alt="Playwright" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                                alt="JavaScript" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-                                alt="Docker" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                                alt="Git" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg"
-                                alt="Jira" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
-                                alt="VSCode" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg"
-                                alt="Notion" />
+                            <span class="tool-icon" title="Playwright">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" alt="Playwright" />
+                            </span>
+                            <span class="tool-icon" title="JavaScript">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                            </span>
+                            <span class="tool-icon" title="Docker">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+                            </span>
+                            <span class="tool-icon" title="Git">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+                            </span>
+                            <span class="tool-icon" title="Jira">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" alt="Jira" />
+                            </span>
+                            <span class="tool-icon" title="VSCode">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VSCode" />
+                            </span>
+                            <span class="tool-icon" title="Notion">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" alt="Notion" />
+                            </span>
+                            <span class="tool-icon tool-icon--line" title="Codex">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg" alt="Codex" />
+                            </span>
                         </div>
                         <div class="marquee-row">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg"
-                                alt="GitLab" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original-wordmark.svg"
-                                alt="Cypressio" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
-                                alt="Postman" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg"
-                                alt="DBViewer" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg"
-                                alt="Swagger" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg"
-                                alt="Android" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg"
-                                alt="Android Studio" />
+                            <span class="tool-icon" title="GitLab">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" alt="GitLab" />
+                            </span>
+                            <span class="tool-icon" title="Cypress">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" alt="Cypress" />
+                            </span>
+                            <span class="tool-icon" title="Postman">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman" />
+                            </span>
+                            <span class="tool-icon" title="DBeaver">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg" alt="DBeaver" />
+                            </span>
+                            <span class="tool-icon" title="Swagger">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" alt="Swagger" />
+                            </span>
+                            <span class="tool-icon" title="Android">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" alt="Android" />
+                            </span>
+                            <span class="tool-icon" title="Android Studio">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" />
+                            </span>
+                            <span class="tool-icon tool-icon--line" title="Claude Code">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/claude.svg" alt="Claude Code" />
+                            </span>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="section course animate">
+            <h2>Видео курс</h2>
+            <div class="course-card">
+                <p class="course-kicker">Playwright automation</p>
+                <h3>Автор видео курса по Playwright автоматизации для сотрудников VK</h3>
+                <p>
+                    Курс ведет от установки окружения и первых шагов в автотестах до генерации АТ с помощью ИИ.
+                </p>
+                <ul>
+                    <li>Подготовка рабочего окружения и запуск первых тестов.</li>
+                    <li>Практика локаторов, фикстур, API-проверок и отчетности.</li>
+                    <li>Интеграция автотестов в GitLab, Allure и командные процессы.</li>
+                    <li>Генерация, ревью и доработка автотестов с помощью AI-инструментов.</li>
+                </ul>
             </div>
         </section>
 
@@ -134,7 +193,7 @@
             <h2>Проекты</h2>
             <div class="projects-accordion">
                 <div class="project">
-                    <button class="project-header">
+                    <button class="project-header" type="button" aria-expanded="false">
                         <span class="project-title">Lead QA Auto, RuStore (VK)</span>
                         <svg class="arrow" viewBox="0 0 24 24">
                             <path d="M7 10l5 5 5-5z" />
@@ -144,35 +203,38 @@
                         <div class="project-section">
                             <h3>Работа с командой:</h3>
                             <ul>
-                                <li>Руководство командой автоматизации на проекте (7 человек)</li>
-                                <li>Внедрение и обучение процессам автоматизации в фича командах</li>
-                                <li>Развитие команды автоматизации, помощь в достижении годовых личных целей
-                                    автоматизаторов</li>
-                                <li>Постоянное проведение 1-1 с членами команды</li>
-                                <li>Проведение онлайн/оффлайн мероприятий: груммингов, ретро, планирований</li>
+                                <li>Автор видео курса по Playwright автоматизации для сотрудников VK.</li>
+                                <li>Руководство командой автоматизации на проекте (7 человек).</li>
+                                <li>Внедрение и обучение процессам автоматизации в фича командах (разработчики и ручные тестировщики).</li>
+                                <li>Развитие команды автоматизации, помощь в достижении годовых личных целей автоматизаторов.</li>
+                                <li>Постоянное проведение 1-1 с членами команды.</li>
+                                <li>Проведение онлайн/оффлайн мероприятий: груммингов, ретро, планирований.</li>
+                                <li>Рост членов команды в разработчики (согласование обучения, смещение фокуса задач на разработку, мотивированное).</li>
                             </ul>
                         </div>
                         <div class="project-section">
                             <h3>Работа с проектом:</h3>
                             <ul>
-                                <li>Разработка стратегии тестирования на проекте</li>
-                                <li>Развитие автоматизации по направлениям back, web, android, НТ</li>
-                                <li>Встраивание прогонов автотестов в релизный процесс</li>
-                                <li>Внедрение систем блокировок по результатам прогона автотестов на МРах</li>
-                                <li>Планирование/контроль работ для достижения квартальных/годовых целей по
-                                    автоматизации на проекте</li>
-                                <li>Контроль эпиков/задач в Jira</li>
-                                <li>Код ревью работ связанных с автоматизацией проекта</li>
-                                <li>Внедрение и использование Allure как единой TMS для ручного и авто тестирования
-                                    (миграция тест кейсов, настройка проектов, интеграция с gitlab, jira, настройка
-                                    дашбордов и метрик)</li>
+                                <li>Разработка стратегии тестирования на проекте.</li>
+                                <li>Развитие автоматизации по направлениям back, web, android, НТ.</li>
+                                <li>Встраивание прогонов автотестов в релизный процесс.</li>
+                                <li>Внедрение систем блокировок по результатам прогона автотестов на МРах.</li>
+                                <li>Планирование/контроль работ для достижения квартальных/годовых целей по автоматизации на проекте.</li>
+                                <li>Контроль эпиков/задач в Jira.</li>
+                                <li>Код ревью работ связанных с автоматизацией проекта.</li>
+                                <li>Координация работ по внедрению и использованию Allure как единой TMS для ручного и авто тестирования (миграция тест кейсов, настройка проектов, интеграция с GitLab, Jira, настройка дашбордов и метрик).</li>
+                                <li>Уменьшение времени регресса за счет автоматизации с нескольких дней до 3 часов.</li>
+                                <li>Выстраивание процессов автоматизации для возможности выкатки сервисов в прод без ручного тестирования.</li>
+                                <li>Координация работ автоматизаторов и ручных тестировщиков по переезду сервисов и стендов в единое облачное хранилище.</li>
+                                <li>Подключение технологий AI для помощи в написании автотестов и кода.</li>
+                                <li>Ведение группы ручных QA по обучению и внедрению AI в процессы ручного тестирования (использование CLI агентов, MCP серверов Allure, Jira, Confluence, Figma, Playwright, создание базы данных переиспользуемых промптов и скиллов).</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <div class="project">
-                    <button class="project-header">
+                    <button class="project-header" type="button" aria-expanded="false">
                         <span class="project-title">QA Automation engineer, RedMadRobot</span>
                         <svg class="arrow" viewBox="0 0 24 24">
                             <path d="M7 10l5 5 5-5z"/>
@@ -183,16 +245,16 @@
                             <ul>
                                 <li>Запуск автотестирования с нуля (Web)</li>
                                 <li>Написание автотестов на Playwright (typescript)</li>
-                                <li>Настройка автотестов в gitlab</li>
+                                <li>Настройка автотестов в GitLab</li>
                                 <li>Работа с Git</li>
                                 <li>Налаживание процессов тестирования с учётом внедрения автотестов</li>
-                                <li>Настройка отчётности по результатам автотестирования (allure)</li>
+                                <li>Настройка отчётности по результатам автотестирования (Allure)</li>
                                 <li>Участие в ручном тестировании</li>
                                 <li>Участие в написании тест-кейсов (test-it)</li>
                                 <li>Участие в тестировании требований</li>
                                 <li>Тестирование API (Postman, Playwright)</li>
                                 <li>Проведение ревью кода автотестов</li>
-                                <li>Участие в релизом процессе</li>
+                                <li>Участие в релизном процессе</li>
                                 <li>Написание документации</li>
                                 <li>Заведение отчетов об ошибках (Jira)</li>
                             </ul>
@@ -201,7 +263,7 @@
                 </div>
 
                 <div class="project">
-                    <button class="project-header">
+                    <button class="project-header" type="button" aria-expanded="false">
                         <span class="project-title">QA Automation engineer, YM</span>
                         <svg class="arrow" viewBox="0 0 24 24">
                             <path d="M7 10l5 5 5-5z"/>
@@ -212,11 +274,11 @@
                             <ul>
                                 <li>Запуск автотестирования с нуля (Web)</li>
                                 <li>Написание автотестов на Playwright (typescript)</li>
-                                <li>Настройка автотестов в gitlab</li>
+                                <li>Настройка автотестов в GitLab</li>
                                 <li>Работа с Git</li>
                                 <li>Налаживание процессов тестирования с учётом внедрения автотестов</li>
-                                <li>Настройка отчётности по результатам автотестирования (allure)</li>
-                                <li>Обучение ручных тестировщиков автоатизации</li>
+                                <li>Настройка отчётности по результатам автотестирования (Allure)</li>
+                                <li>Обучение ручных тестировщиков автоматизации</li>
                                 <li>Проведение ревью кода автотестов</li>
                             </ul>
                         </div>
@@ -224,7 +286,7 @@
                 </div>
 
                 <div class="project">
-                    <button class="project-header">
+                    <button class="project-header" type="button" aria-expanded="false">
                         <span class="project-title">QA Automation engineer, NordCloud</span>
                         <svg class="arrow" viewBox="0 0 24 24">
                             <path d="M7 10l5 5 5-5z"/>
@@ -251,7 +313,7 @@
                 </div>
 
                 <div class="project">
-                    <button class="project-header">
+                    <button class="project-header" type="button" aria-expanded="false">
                         <span class="project-title">QA Engineer / PM, InDev</span>
                         <svg class="arrow" viewBox="0 0 24 24">
                             <path d="M7 10l5 5 5-5z"/>
@@ -262,16 +324,16 @@
                             <ul>
                                 <li>Внедрение на проект автоматизации тестирования на Cypress (функциональные тесты, end-to-end тесты)</li>
                                 <li>Тестирование программно-аппаратных комплексов, включая мобильные компоненты (функциональное, регрессионное, нагрузочное, стрессовое)</li>
-                                <li>Развертывание стендов для тестирования (в основном работа с Docker контейнерами на CentOS р части проверки состояния контейнеров, просмотр логов, изменение характеристик контейнеров, отгрузка)</li>
+                                <li>Развертывание стендов для тестирования (в основном работа с Docker контейнерами на CentOS в части проверки состояния контейнеров, просмотр логов, изменение характеристик контейнеров, отгрузка)</li>
                                 <li>Написание тест-кейсов, чек-листов, методик тестирования, отчетов по завершению тестирования, написание статей на внутренних ресурсах компании о тестировании продуктов (TestLink)</li>
                                 <li>Написание и поддержка автотестов (bash скрипты)</li>
-                                <li>Взаимодействие с командой разработчики и заказчика</li>
+                                <li>Взаимодействие с командой разработки и заказчиком</li>
                                 <li>Работа с системами контроля версий</li>
                                 <li>Работа с базами данных MongoDB (DataGrip)</li>
                                 <li>Развертывание виртуальных машин на Virtual Box, ESXI (Windows 10, Linux Ubuntu, CentOS 7), MobaXterm (для управления виртуальными машинами)</li>
                                 <li>Работа с docker контейнерами (Обновление контейнеров на стендах, сбор логов, контроль работы контейнеров, подготовка стенда заказчику на docker контейнерах)</li>
                                 <li>Тестирование API с помощью Postman (проверка запросов на бэк)</li>
-                                <li>С Августа 2021 года, взял на себе менеджерские обязанности по своим проектам, которые тестировал, в которые входили такие вещи как:</li>
+                                <li>С августа 2021 года взял на себя менеджерские обязанности по своим проектам, которые тестировал:</li>
                                 <li>Полное взаимодействие с Заказчиком (утверждали сроки, контролировал соблюдение сроков и отгрузку обновлений, проводил презентации обновлений, организовывал митинги как внутри команды, так и с Заказчиком)</li>
                                 <li>Ведение документации (Написание с нуля и обновление старых Руководств Пользователя, анализ и проработка новых требований, подготовка закрывающей документации, актов и счетов, ведение различных промежуточных отчетностей для Заказчика)</li>
                                 <li>Работа с командой разработки и Тех. Лидом (расстановка приоритетов по задачам, распределение ресурсов, проработка требований с командой, поиск решений с проблемными задачами)</li>
@@ -281,7 +343,7 @@
                 </div>
 
                 <div class="project">
-                    <button class="project-header">
+                    <button class="project-header" type="button" aria-expanded="false">
                         <span class="project-title">Ассессор-тестировщик, Анкор (Yandex)</span>
                         <svg class="arrow" viewBox="0 0 24 24">
                             <path d="M7 10l5 5 5-5z"/>
@@ -357,6 +419,12 @@
             <p>ZeroCoding with ChatGPT & Cursor</p>
         </footer>
     </main>
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Наверх">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+            <path d="M7 14l5-5 5 5z" fill="currentColor"/>
+        </svg>
+    </button>
+    <script src="script.js"></script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (m, e, t, r, i, k, a) {
@@ -394,20 +462,19 @@
             observer.observe(el);
         });
 
-        // Аккордеон для проектов
         document.querySelectorAll('.project-header').forEach(button => {
             button.addEventListener('click', () => {
                 const project = button.parentElement;
                 const isActive = project.classList.contains('active');
 
-                // Закрываем все проекты
                 document.querySelectorAll('.project').forEach(p => {
                     p.classList.remove('active');
+                    p.querySelector('.project-header')?.setAttribute('aria-expanded', 'false');
                 });
 
-                // Если текущий проект не был активен, открываем его
                 if (!isActive) {
                     project.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
                 }
             });
         });
