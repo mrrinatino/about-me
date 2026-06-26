@@ -159,9 +159,14 @@ footer {
 
 .marquee-item {
     display: flex;
+    flex: 0 0 auto;
     flex-direction: column;
     gap: 18px;
     padding-right: 18px;
+}
+
+.marquee-item + .marquee-item {
+    display: flex;
 }
 
 .marquee-row {
